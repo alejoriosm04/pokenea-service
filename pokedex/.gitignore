@@ -65,3 +65,5 @@ build/
 
 # Ignore webpack cache
 .cache/
+
+/images/
