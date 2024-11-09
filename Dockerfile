@@ -10,6 +10,9 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install
 
+# Copiar .env.example como .env en el contenedor
+COPY .env.example .env
+
 # Copy the rest of the project code to the container
 COPY . .
 
