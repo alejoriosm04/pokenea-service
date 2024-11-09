@@ -33,7 +33,7 @@ A simple project in Express.js with a service to manage Pokeneas. Project for th
 After creating the group of instances on GCP, we need to create a Docker Service on the instances. To do this, we need to execute the following command:
 
 ```bash
-sudo docker service create --name randomquotes --replicas 10 -p 80:3000 alejoriosm04/pokenea-service
+sudo docker service create --name pokenea-service --replicas 10 -p 80:3000 alejoriosm04/pokenea-service
 ```
 
 If you want to update the service from Dockerhub automatically, you can use the following command:
