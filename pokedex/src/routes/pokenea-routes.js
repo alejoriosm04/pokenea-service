@@ -3,9 +3,9 @@ const { getPokeneaJson, getPokeneaImageAndPhrase } = require('../controllers/pok
 const router = express.Router();
 
 
-router.get('/json', getPokeneaJson);
+router.get('/pokenea-json', getPokeneaJson);
 
 
-router.get('/image', getPokeneaImageAndPhrase);
+router.get('/pokenea-image', getPokeneaImageAndPhrase);
 
 module.exports = router;
