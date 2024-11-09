@@ -4,7 +4,7 @@ const path = require('path');
 const pokeneaRoutes = require('./routes/pokenea-routes');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 app.set('view engine', 'ejs'); 
 app.set('views', path.join(__dirname, 'views')); 
